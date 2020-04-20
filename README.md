@@ -1,9 +1,9 @@
 # content-observer
 
-Watch one or more targets position for when they intersect a defined point in the viewport. Uses the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
+Watch one or more targets position for when they intersect a defined point in the viewport.
 
 
-- demo
+
 
 ## Features
 
@@ -82,9 +82,12 @@ co.disconnect()
 ### Methods
 
 
-| Name            | Description                                                                                                                                                    |
-| --------------- | ------------------ | ------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **disconnect**        | Stops watching target(s)
+| Name            | Description |
+| --------------- | ----------- |
+| **disconnect**  | Stops watching target(s)
+
+
+
 
 
 
