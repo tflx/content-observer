@@ -75,7 +75,7 @@ co.disconnect()
 | Name            | Type               | Default | Required | Description                                                                                                                                                    |
 | --------------- | ------------------ | ------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **callback**        | function            | null  | false    | The function called when targets intersect/leaves the offset
-| **offsett**        | number\|string            | 0  | false    | The offset from top/left of viewport
+| **offsett**        | number\|string            | 0  | false    | The offset from top/left of viewport. A number indicates pixels from top/left of viewport. A string should be fx.: **'50%'**
 | **enableLocationHash**  | boolean             | false   | false    | Update the location hash when a target with an id intersects the offset                            |
 | **direction**   | string | 'vertical'       | false    | The scroll direction
 
