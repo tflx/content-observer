@@ -2,6 +2,8 @@
 
 Watch one or more targets position for when they intersect a defined point in the viewport. Uses the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 
+## Demo
+https://tflx.github.io/content-observer
 
 
 
