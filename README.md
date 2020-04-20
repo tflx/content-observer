@@ -45,7 +45,7 @@ class App {
   constructor() {
     const co = new ContentObserver(document.querySelectorAll('.observe'), {
       callback: this.handleCallback,
-      offset: 200,
+      offset: 200, //or fx. '50%'
       enableLocationHash: true,
       direction: 'vertical'
     });
