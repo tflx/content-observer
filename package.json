@@ -1,6 +1,6 @@
 {
   "name": "content-observer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Watches targets position in viewport using IntersectionObserver - similar to menuspy",
   "main": "src/index.js",
   "module": "src/index.js",
