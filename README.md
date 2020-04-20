@@ -58,13 +58,15 @@ class App {
 
 export default new App;
 ```
+**The constructor accepts two arguments: the targets (required)  to watch and an options object.**
+
 
 To stop watching target(s):
 ```js
 co.disconnect()
 ```
 
-**The constructor accepts two arguments: the target(s) to watch and an options object.**
+
 
 
 ### Options
@@ -84,7 +86,7 @@ co.disconnect()
 
 | Name            | Description |
 | --------------- | ----------- |
-| **disconnect**  | Stops watching target(s)
+| **disconnect**  | Stop watching target(s)
 
 
 
