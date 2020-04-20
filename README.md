@@ -100,7 +100,7 @@ co.disconnect()
 
 ### Polyfill
 
-You can import the [polyfill](https://www.npmjs.com/package/intersection-observer) directly or use a service like [polyfill.io] https://polyfill.io/v2/docs/) to add it when needed.
+You can import the [polyfill](https://www.npmjs.com/package/intersection-observer) directly or use a service like [polyfill.io](https://polyfill.io/v2/docs/) to add it when needed.
 
 ```sh
 yarn add intersection-observer
