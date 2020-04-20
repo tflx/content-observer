@@ -1,0 +1,36 @@
+{
+  "name": "content-observer",
+  "version": "1.0.0",
+  "description": "Watches elements position in viewport using IntersectionObserver - similar to menuspy",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "menuspy",
+    "vanilla",
+    "viewport",
+    "intersection",
+    "observer"
+  ],
+  "author": "Torben Larsen",
+  "license": "MIT",
+  "homepage": "http://torbenlarsen.com",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  }
+}

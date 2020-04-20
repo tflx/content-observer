@@ -1,0 +1,17 @@
+# Mac OSX Files
+.DS_Store
+.Trashes
+.LSOverride
+
+# Node Modules
+node_modules
+npm-debug.log
+
+# General Files
+.idea
+.cache
+.project
+.tmp
+.log
+.editorconfig
+yarn.lock
