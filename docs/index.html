@@ -58,6 +58,7 @@
   </section>
 
   <script>
+    document.addEventListener('DOMContentLoaded', function(event) {
       const co = new ContentObserver(document.querySelectorAll('.observe'), {
         callback: handleCallback,
         offset: 200,
@@ -69,6 +70,7 @@
       function handleCallback(target, inView) {
         if (inView) document.querySelector('header').innerHTML = target.id.toUpperCase();
       }
+    });
   </script>
 </body>
 </html>
