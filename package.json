@@ -6,7 +6,8 @@
   "module": "src/index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js && cp ./dist/main.js ./docs/main.js",
-    "start": "webpack-dev-server --open --config webpack.dev.js"
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "publish": "np"
   },
   "repository": {
     "type": "git",
@@ -14,11 +15,15 @@
   },
   "keywords": [
     "javascript",
-    "menuspy",
     "vanilla",
     "viewport",
     "intersection",
-    "observer"
+    "observer",
+    "content",
+    "intersectionobserver",
+    "menuspy",
+    "scroll",
+    "scrollspy"
   ],
   "author": "Torben Larsen",
   "license": "MIT",
