@@ -54,8 +54,8 @@ class ContentObserver {
     const offset = this.options.offset
 
     if (isNaN(offset) && offset.indexOf('%') > -1) {
-      if (vertical) return `-${screenSize / 2}px 0px -${screenSize / 2}px 0px`
-      else return `0px -${screenSize / 2}px 0px -${screenSize / 2}px`
+      if (vertical) return `-${Math.floor(screenSize / 2)}px 0px -${Math.floor( screenSize / 2 )}px 0px `
+      else return ` 0px -${Math.floor(screenSize / 2)}px 0px -${Math.floor( screenSize / 2 )}px `
     }
 
     const offsetTop = vertical ? `${-offset}px` : '0px'
